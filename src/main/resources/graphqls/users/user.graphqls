@@ -1,0 +1,13 @@
+type User{
+    id:ID!
+    firstName: String!
+    lastName: String
+    email: String
+    address: String
+    phoneNumber: String
+    peopleId: String
+    isEmailVerified: Boolean!
+    password: String
+    isSetPassword: Boolean
+    avatarId: ID!
+}

@@ -1,0 +1,9 @@
+type Mutation{
+    createProject(data:CreateProjectInput!):Project!
+}
+input CreateProjectInput {
+    name:String!
+    description:String!
+    note:String
+    uid:ID!
+}
